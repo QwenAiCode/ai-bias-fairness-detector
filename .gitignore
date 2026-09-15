@@ -1,47 +1,45 @@
-# Python
-__pycache__/
-*.py[cod]
-*$py.class
-*.so
-*.egg
-*.egg-info/
+```
+# Dependencies
+node_modules/
+
+# Build artifacts
 dist/
 build/
-*.pyo
+*.js.map
+*.ts.map
+*.jsx.map
+*.tsx.map
 
-# Virtual Environment
-venv/
-env/
-ENV/
+# Environment variables
 .env
+.env.local
+.env.*
 
-# Jupyter
-.ipynb_checkpoints/
-*.ipynb_checkpoints
+# IDE specific
+.vscode/
+.idea/
 
-# Data (too large for GitHub)
-data/adult.csv
-data/adult_reweighted.csv
-
-# Trained Models (too large for GitHub)
-outputs/models/
-outputs/charts/
-
-# OS
+# OS generated
 .DS_Store
 Thumbs.db
-desktop.ini
-
-# IDE
-.vscode/settings.json
-.idea/
-*.swp
-*.swo
 
 # Logs
 *.log
-logs/
 
-# Temporary
-*.tmp
-*.temp
+# Python (if any Python files exist in the project)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+venv/
+env/
+.venv/
+
+# Coverage
+coverage/
+htmlcov/
+
+# TypeScript
+*.tsbuildinfo
+```
